@@ -1,0 +1,39 @@
+{
+  "name": "poll-app",
+  "version": "1.0.0",
+  "description": "A polling application with React frontend and Node.js backend",
+  "main": "app.js",
+  "scripts": {
+    "dev:frontend": "cd FrontEnd && npm run dev",
+    "dev:backend": "cd BackEnd && npm start",
+    "build:frontend": "cd FrontEnd && npm run build",
+    "install:frontend": "cd FrontEnd && npm install",
+    "install:backend": "cd BackEnd && npm install",
+    "install:all": "npm run install:frontend && npm run install:backend",
+    "lint:frontend": "cd FrontEnd && npm run lint",
+    "preview:frontend": "cd FrontEnd && npm run preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "FrontEnd",
+    "BackEnd"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiantbYTES/poll-app.git"
+  },
+  "keywords": [
+    "poll",
+    "voting",
+    "react",
+    "nodejs",
+    "fullstack"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/GiantbYTES/poll-app/issues"
+  },
+  "homepage": "https://github.com/GiantbYTES/poll-app#readme"
+}
